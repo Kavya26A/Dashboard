@@ -1,0 +1,25 @@
+/* Dropdown Styles */
+.selectBox {
+    width: 100%;
+    padding: 12px; 
+    margin-bottom: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    background-color: #e7f0ff; 
+    color: #333; 
+    font-size: 16px;
+    transition: border-color 0.2s ease; 
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); 
+    cursor: pointer; 
+}
+
+.selectBox:focus {
+    outline: none;
+    border-color: #45d3d6; 
+    box-shadow: 0 0 8px rgba(0, 86, 179, 0.5); 
+}
+
+.selectBox option {
+    background-color: #f0f8ff; 
+    color: #333; 
+}
